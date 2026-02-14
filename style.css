@@ -4,5 +4,10 @@
 }
 
 h {
-  font-size: 14px;
+  font-size: 10vw;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(254, 253, 178);
 }
