@@ -1,15 +1,57 @@
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 * {
   font-color: black;
-  font-family: Georgia, serif;
+  font-family: Inter, sans-serif;
 }
 
 h1, h2 {
   color: #ff7ab9;
-  font-size: 150px;
+  font-size: 165px;
   text-align: center;
-  -webkit-text-stroke: 2px white;
+  <!-- -webkit-text-stroke: 3px rgb(255, 250, 224); -->
 }
 
+
 body {
+  margin: 50px; /* width of navbar, higher margin=skinnier navbar */
   background-color: #FEFDB2;
 }
+
+#navbar {
+  background-color: pink;
+  padding: 30px; /* height of navbar */
+}
+
+/* style for the list */
+#navbar ul {
+  list-style: none; /* change this and see what happens */
+  margin: 0;
+  padding: 0;
+}
+
+/* style for the list items, aka the things holding your links to your pages */
+#navbar li {
+  display: inline;
+  margin-right: 20px; /* change this and see what happens */
+}
+
+/* style for the links */
+#navbar a {
+  color: rgb(79, 53, 40); /*Color of text*/
+  text-decoration: none; /* change this and see what happens */
+  font-size: 30px;
+}
+
+/* style whenever you hover over a link */
+#navbar a:hover {
+  text-decoration: underline; /* text underlined when cursor hovers on top */
+}
+
+
