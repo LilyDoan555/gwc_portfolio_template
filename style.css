@@ -7,7 +7,6 @@
 }
 
 * {
-  font-color: black;
   font-family: Inter, sans-serif;
 }
 
@@ -25,6 +24,10 @@ body {
 }
 
 #navbar {
+  position: sticky;
+  top: 0; /* This defines the point at which the element starts sticking (0 pixels from the top of the viewport) */
+  z-index: 10000; /* Ensures the navbar stays on top of other elements */
+  margin-bottom: 5px;
   background-color: pink;
   padding: 30px; /* height of navbar */
 }
@@ -54,4 +57,31 @@ body {
   text-decoration: underline; /* text underlined when cursor hovers on top */
 }
 
+.image {
+  border-radius: 35px;
+  border: 10px solid #ff7ab9;
+  margin-top: 20px;
+  margin-right: 20px; 
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  z-index: -1;
+  float: left;
+}
 
+h3 {
+  color: rgb(79, 53, 40);
+  font-size: 45px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h4 {
+  color: rgb(79, 53, 40);
+  font-size: 40px;
+  text-align: center;
+}
